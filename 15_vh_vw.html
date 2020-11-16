@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vh and Vw</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background: #333 url('https://source.unsplash.com/daily') no-repeat center center/cover;
+      color: #fff;
+      height: 100vh;
+      text-align: center;
+      padding-top: 15rem;
+    }
+
+    header h1 {
+      font-size: 3em;
+    }
+
+    header p {
+      margin: 1rem 0;
+    }
+
+    @media (max-height: 450px) {
+      header {
+        padding-top: 3rem;
+      }
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.75em 2rem;
+      text-decoration: none;
+      background: #f4f4f4;
+      color: #333;
+    }
+    
+    section {
+      padding: 2rem;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Website</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, obcaecati.</p>
+    <a href="#" class="btn">Find Out More</a>
+  </header>
+
+  <section>
+    <h3>About Our Company</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis, recusandae odio saepe non ipsa magni illum nobis ipsam pariatur dolores alias tempora perferendis repellat illo eveniet! Sapiente assumenda possimus ex aliquid, ut tenetur laborum. Corporis maiores corrupti ut, iste adipisci vero, doloremque dicta esse id ducimus repellendus laborum. Quisquam!</p>
+  </section>
+</body>
+</html>
